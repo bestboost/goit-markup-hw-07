@@ -7,7 +7,7 @@
 // &__item:first-child {
    
 // }  
-&__item:not(last-child) {
+&__item:not(:last-child) {
     margin-right: 50px;
 }   
 

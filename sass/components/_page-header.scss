@@ -20,7 +20,7 @@
    margin-left: 93px;
 }    
    
-&__item:not(first-child) {
+&__item:not(:first-child) {
     margin-left: 50px;
 }
 
