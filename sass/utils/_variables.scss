@@ -7,4 +7,10 @@ $icon-color: #AFB1B8;
 $footer-background-color: #2F303A; 
 $background-color: #FFFFFF;
 $font-family: 'Roboto', sans-serif;
+$hero-background-gradient: linear-gradient(
+    to right,
+   rgba(47, 48, 58, 0.4),
+   rgba(47, 48, 58, 0.4)
+),
+url("../images/Hero_bg_img.jpg");
     

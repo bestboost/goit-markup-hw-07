@@ -1,7 +1,7 @@
-body {
-
+.body {
     background-color: $background-color;
     font-family: $font-family;
+}
 
 .container {
     width: 1200px;
@@ -11,4 +11,26 @@ body {
     margin-right: auto;
 
 }
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+
+ &__title {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    color: $title-color;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+ }
+
+ .section .activity {
+     padding-top: 0;
+ }
+
 }

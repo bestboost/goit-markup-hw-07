@@ -15,7 +15,7 @@
 
          <link rel="stylesheet" href="./css/main.min.css">
      </head>       
-  <body>
+  <body class="body">
         <header class="page-header">
             <div class="container">
                 <nav class="main-nav">
@@ -47,10 +47,10 @@
         <main>
              <!--hero-->
              <section class="hero">
-                <div class="container">
-                     <h1 class="hero-title">Эффективные решения <br>
+                <div class="container hero__container">
+                     <h1 class="hero__title">Эффективные решения <br>
                         для вашего бизнеса</h1>
-                     <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>    
+                     <button type="button" class="hero__button" data-modal-open>Заказать услугу</button>    
                 </div>
                  </section>
               <!--description of company-->
@@ -58,49 +58,49 @@
                  <div class="container">
                       <h2 class="visually-hidden">Наши преимущества</h2>
                       <ul class="description">
-                            <li class="item">
-                                <div class="description-icon">
-                                  <svg class="antenna-icon" width="70" height="70" >
+                            <li class="description__item">
+                                <div class="description__icon">
+                                  <svg class="description description__icon--antenna" width="70" height="70" >
                                     <use href="./images/icons.svg#icon-antenna-1"></use>
                                   </svg>
                                 </div>
-                                <h3 class="description-headline">Внимание к деталям</h3>
-                                <p class="description-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                                <h3 class="description__headline">Внимание к деталям</h3>
+                                <p class="description__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                             </li>
-                            <li class="item">
-                                <div class="description-icon">
-                                    <svg class="clock-icon" width="70" height="70">
+                            <li class="description__item">
+                                <div class="description__icon">
+                                    <svg class="description description__icon--clock" width="70" height="70">
                                         <use href="./images/icons.svg#icon-clock-1"></use>
                                     </svg>
                                 </div>
-                                <h3 class="description-headline">Пунктуальность</h3>
-                                <p class="description-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                                <h3 class="description__headline">Пунктуальность</h3>
+                                <p class="description__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                             </li>
-                            <li class="item">
-                                <div class="description-icon">
-                                    <svg class="diagram-icon" width="70" height="70">
+                            <li class="description__item">
+                                <div class="description__icon">
+                                    <svg class="description description__icon--diagram" width="70" height="70">
                                         <use href="./images/icons.svg#icon-diagram-1"></use>
                                     </svg>
                                 </div>
-                                <h3 class="description-headline">Планирование</h3>
-                                <p class="description-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                                <h3 class="description__headline">Планирование</h3>
+                                <p class="description__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                             </li>
-                            <li class="item">
-                                <div class="description-icon">
-                                    <svg class="astronaut-icon" width="70" height="70">
+                            <li class="description__item">
+                                <div class="description__icon">
+                                    <svg class="description description__icon--astronaut" width="70" height="70">
                                         <use href="./images/icons.svg#icon-astronaut-1"></use>
                                     </svg>
                                 </div>
-                                <h3 class="description-headline">Современные технологии</h3>
-                                <p class="description-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                                <h3 class="description__headline">Современные технологии</h3>
+                                <p class="description__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                             </li>
                      </ul>
                   </div>
              </section>
              <!--activity of company-->
-             <section class="section activity">
+             <section class="section activity"> <!--посмотреть _base.sccs-->
                 <div class="container">
-                     <h2 class="section-title">Чем мы занимаемся</h2>
+                     <h2 class="section__title">Чем мы занимаемся</h2>
                   <ul class="activity-list">
                      <li class="item">
                         <div class="activity-thumb">
@@ -126,7 +126,7 @@
               <!--company team-->
              <section class="section team-section">
                 <div class="container">
-                   <h2 class="section-title">Наша команда</h2>
+                   <h2 class="section__title">Наша команда</h2>
                   <ul class="team">
                      <li class="item">
                          <img src="images/img(1).jpg" alt="фото сотрудник компании" width="270">
@@ -278,7 +278,7 @@
              <!-- clients companys  -->
              <section class="section">
                  <div class="container ">
-                    <h2 class="section-title">Постоянные клиенты</h2>
+                    <h2 class="section__title">Постоянные клиенты</h2>
                      <ul class="clients-list">
                         <li class="clients">
                            <a class="clients-link" href="">

@@ -1,0 +1,46 @@
+.hero {
+    background-color: #2F303A;
+    text-align: center;
+    // background hero Overlay
+    max-width: 1600px;
+    height: 600px;
+    background-image: $hero-background-gradient;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+&__container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+&__button { 
+    padding: 10px 32px;
+    min-width: 200px;
+    height: 50px;
+   
+    color: $secondary-text-color;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    background-color: $accent-color;
+    border-radius: 4px;
+    border: transparent;
+    cursor: pointer;
+}
+
+&__title { 
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+    color: $secondary-text-color;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+}
