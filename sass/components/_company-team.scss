@@ -26,10 +26,12 @@
 /* employee's information */
 .employee {
     text-align: center;
-    padding-top: 30px;         //перенести падинги
-    padding-bottom: 30px;
 
-&__ name {
+    &--padding {
+    padding-top: 30px;        
+    padding-bottom: 30px;
+    }
+&__name {
     margin-bottom: 10px;
      
     color: $title-color;

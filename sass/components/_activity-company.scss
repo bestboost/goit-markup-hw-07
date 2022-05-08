@@ -1,5 +1,8 @@
 .activity {
-    padding-top: 0;      // убрать падинг
+
+ &--padding {   
+    padding-top: 0; 
+ }
 
 &__list {
     display: flex;

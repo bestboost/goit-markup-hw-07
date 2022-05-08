@@ -55,6 +55,11 @@ textarea {
   display: block;
 }
 
+label {
+  display: block;
+  margin-bottom: -4px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -241,8 +246,6 @@ textarea {
 
 .element {
   width: 370px;
-  margin-right: 30px;
-  margin-bottom: 30px;
 }
 
 .element:nth-child(3n) {
@@ -255,6 +258,8 @@ textarea {
 
 .element__link {
   display: block;
+  margin-right: 30px;
+  margin-bottom: 30px;
   -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -336,7 +341,17 @@ textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.social--margin {
   margin-top: 16px;
+}
+
+.social__icon {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  fill: currentColor;
 }
 
 .social__link {
@@ -378,18 +393,14 @@ textarea {
   background-color: #2196F3;
 }
 
-.social__icon {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  fill: currentColor;
-}
-
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
   background-color: #2F303A;
   color: #FFFFFF;
+}
+
+.footer--padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-content {
@@ -408,12 +419,15 @@ textarea {
 }
 
 .contacts {
-  margin-top: 20px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts--margin {
+  margin-top: 20px;
 }
 
 .contacts__address {
@@ -438,21 +452,24 @@ textarea {
   color: #2196F3;
 }
 
-.action-text {
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1;
-  text-transform: uppercase;
-}
-
 .footer-links {
   display: block;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.footer-links--position {
   padding: 0;
   margin-left: 70px;
+}
+
+.footer-links__text {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
 }
 
 /* call to action */
