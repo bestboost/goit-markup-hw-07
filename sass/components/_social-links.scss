@@ -12,10 +12,7 @@
     align-items: center;
     fill: currentColor;
 }
-&:hover,
-&:focus  {
-    background-color: $accent-color;
-}
+
 
 &__links:not(:last-child) {
     margin-right: 10px;
