@@ -1,15 +1,12 @@
 //  contacts-nav
  .contacts-nav {
     display: flex;
-    
+    align-items: center;
     color: $main-text-color;
  
-
-// &__item:first-child {
-   
-// }  
 &__item:not(:last-child) {
-    margin-right: 50px;
+    margin-left: 295px;
+    margin-right: 30px;
 }   
 
 &__link {

@@ -73,6 +73,15 @@ textarea {
   border-bottom: 1px solid #ECECEC;
 }
 
+.page-header--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .main-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -149,11 +158,15 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #757575;
 }
 
 .contacts-nav__item:not(:last-child) {
-  margin-right: 50px;
+  margin-left: 295px;
+  margin-right: 30px;
 }
 
 .contacts-nav__link {
