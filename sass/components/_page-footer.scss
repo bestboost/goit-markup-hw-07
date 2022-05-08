@@ -80,6 +80,9 @@
     margin-left: 93px;
     width: 570px;
 
+    &__field {
+        display: flex;
+    }
 
 &__text {
     margin-bottom: 20px;

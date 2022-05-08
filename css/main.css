@@ -26,7 +26,7 @@
   text-align: center;
 }
 
-.section .section .activity {
+.activity {
   padding-top: 0;
 }
 
@@ -549,6 +549,12 @@ textarea {
 .footer-form {
   margin-left: 93px;
   width: 570px;
+}
+
+.footer-form__field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .footer-form__text {
