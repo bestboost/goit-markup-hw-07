@@ -1,9 +1,5 @@
 .activity {
-
- &--padding {   
-    padding-top: 0; 
- }
-
+ 
 &__list {
     display: flex;
 }
@@ -39,3 +35,7 @@
     text-transform: uppercase;
  } 
 }
+
+.activity__padding {   
+    padding-top: 0; 
+ }

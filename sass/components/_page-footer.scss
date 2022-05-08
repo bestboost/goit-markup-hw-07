@@ -1,14 +1,23 @@
-// footer
+.footer__padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contacts__margin {
+    margin-top: 20px;
+}
+
+.footer-links__position {
+    padding: 0;
+    margin-left: 70px;
+}
+    
+
 .footer {
     background-color: $footer-background-color;  
     color: $secondary-text-color;
-
-    &--padding {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
 }
-  
+
 .footer-content {
     display: flex;
     align-items: baseline;
@@ -25,12 +34,7 @@
     font-size: 14px;
     line-height: 1.7;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    &--margin {
-        margin-top: 20px;
-    }
-
-
+   
 &__address {
     color: $secondary-text-color;
 }
@@ -62,11 +66,6 @@
     display: block ;
     align-items: center;
    
-    &--position {
-    padding: 0;
-    margin-left: 70px;
-    }
-    
     &__text {
         margin-bottom: 20px;
         font-weight: 700;
