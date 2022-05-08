@@ -373,6 +373,10 @@ label {
   line-height: 1.2;
 }
 
+.social__margin {
+  margin-top: 16px;
+}
+
 .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -383,10 +387,6 @@ label {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.social--margin {
-  margin-top: 16px;
 }
 
 .social__icon {

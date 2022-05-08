@@ -1,11 +1,12 @@
+.social__margin {
+    margin-top: 16px;
+}
+
 .social {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    &--margin {
-    margin-top: 16px;
-}
 
 &__icon {
     align-items: center;
