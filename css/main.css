@@ -207,21 +207,6 @@ label {
   background-size: cover;
 }
 
-.hero__button {
-  padding: 10px 32px;
-  min-width: 200px;
-  height: 50px;
-  color: #FFFFFF;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  text-align: center;
-  background-color: #2196F3;
-  border-radius: 4px;
-  border: transparent;
-  cursor: pointer;
-}
-
 .hero__title {
   margin-top: 0px;
   margin-bottom: 30px;
@@ -625,36 +610,6 @@ label {
   border-radius: 4px;
 }
 
-.footer-form__call {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 8px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  min-width: 200px;
-  height: 50px;
-  color: #FFFFFF;
-  background-color: #2196F3;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-  text-align: center;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: transparent;
-  cursor: pointer;
-}
-
 .footer-form__icon {
   margin-left: 10px;
 }
@@ -891,25 +846,6 @@ label {
   background-repeat: no-repeat;
 }
 
-.submit-button {
-  display: block;
-  min-width: 200px;
-  height: 50px;
-  color: #FFFFFF;
-  background-color: #2196F3;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-  text-align: center;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: transparent;
-  cursor: pointer;
-}
-
 .portfolio-filter {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1043,5 +979,43 @@ label {
   color: #FFFFFF;
   font-size: 18px;
   line-height: 1.6;
+}
+
+.hero__button, .footer-form__call, .submit-button {
+  padding: 10px 32px;
+  min-width: 200px;
+  height: 50px;
+  color: #FFFFFF;
+  background-color: #2196F3;
+  font-family: inherit;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  border: transparent;
+  cursor: pointer;
+}
+
+.footer-form__call {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 8px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.submit-button {
+  display: block;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /*# sourceMappingURL=main.css.map */
