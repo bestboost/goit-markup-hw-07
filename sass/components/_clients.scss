@@ -3,16 +3,13 @@
     align-items: center;
     justify-content: center;
 
-&__list {
-    width: 170px;
-    height: 90px;
+&__icon {
+    align-items: center;
+    fill: currentColor;
+}
 }
 
-&__list:not(:last-child) {
-    margin-right: 30px;
-}
-
-&__link {
+.clients__link {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -26,17 +23,19 @@
     color: $icon-color;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-&__link:hover,
-&__link:focus {
+&:hover,
+&:focus {
     color: $accent-color;
     border: 1px solid $accent-color;
 }
-
-&__icon {
-    align-items: center;
-    fill: currentColor;
 }
 
+.clients__list {
+    width: 170px;
+    height: 90px;
+
+&:not(:last-child) {
+    margin-right: 30px;
+}
 }

@@ -1,22 +1,21 @@
-.social__margin {
-    margin-top: 16px;
-}
-
 .social {
     display: flex;
     align-items: center;
     justify-content: center;
-
+   
+    &--margin {
+        margin-top: 16px;
+    }
+    
 
 &__icon {
     align-items: center;
     fill: currentColor;
 }
-
-
-&__links:not(:last-child) {
-    margin-right: 10px;
 }
+
+.social__item:not(:last-child) {
+    margin-right: 10px;
 }
 
 .social__link {
@@ -46,7 +45,6 @@
     color: $secondary-text-color;
     background-color: $accent-color;
 }
-
 
 }
 

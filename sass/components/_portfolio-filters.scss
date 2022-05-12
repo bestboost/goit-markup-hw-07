@@ -2,15 +2,13 @@
     display:flex;
     justify-content: center;
    
-&__item {
+&--margin-bottom {
     margin-bottom: 50px;
 }
-
-&__item:not(:first-child) {
+}
+.portfolio-filter__item:not(:first-child) {
     margin-left: 8px;
 }
-}
-
 
 .portfolio-filter__button {
     border-radius: 4px;

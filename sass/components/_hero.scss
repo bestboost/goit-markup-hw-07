@@ -1,6 +1,10 @@
 .hero {
     background-color: #2F303A;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
     // background hero Overlay
     max-width: 1600px;
     height: 600px;
@@ -23,10 +27,3 @@
 }
 }
 
-
-.hero__position {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
-}

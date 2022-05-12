@@ -1,15 +1,6 @@
 .description {
     display: flex;
 
-
-&__item {
-    width: 270px;
- }
-
-&__item:not(:first-child) {
-    margin-left: 30px;
-}
-
 &__headline {
     margin-bottom: 10px;
     
@@ -17,17 +8,28 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 &__text {
     color: $main-text-color;
-
+    letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.7;
 }
 
-&__icon {
+}
+
+.description__item {
+    width: 270px;
+
+&:not(:first-child) {
+    margin-left: 30px;
+}
+}
+
+.box__icon {
     display:flex;
     align-items: center;
     justify-content: center;
@@ -36,6 +38,4 @@
 
     background-color: $secondary-background-color;
     border-radius: 4px;
-}
-
 }
